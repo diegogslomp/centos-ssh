@@ -1,10 +1,10 @@
 # centos-ssh
 
-Centos8 docker image with ssh service:
+Centos docker image with ssh service:
 
 ```
-docker build -t centos-ssh .
-docker run -d -p 2222:22 centos-ssh
+docker pull diegogslomp/centos-ssh:8
+docker run -d -p 2222:22 diegogslomp/centos-ssh:8
 ssh -p 2222 root@localhost
 # pass: newpass
 ```
