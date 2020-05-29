@@ -1,6 +1,6 @@
-# centos
+# centos-ssh
 
-Centos8 docker image with ssh:
+Centos8 docker image with ssh service:
 
 ```
 docker build -t centos-ssh .
